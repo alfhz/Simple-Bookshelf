@@ -1,38 +1,42 @@
-# Bookshelf App Starter Project
+# Bookshelf App
 
-Ini adalah starter project untuk siswa yang sedang mengerjakan tugas akhir kelas Belajar Membuat Front-End Web untuk Pemula.
+Hey there! Welcome to the **Bookshelf App**, a personal project I created to showcase a simple yet functional web app for managing book collection. Whether you’re an avid reader or just like to keep track of your favorite books, this app has got you covered!
 
-## Ketentuan Pengerjaan Tugas
+## What’s the Bookshelf App About?
 
-Untuk mempermudah penilaian submission yang dikirim, Anda perlu memahami ketentuan-ketentuan berikut dalam mengerjakan tugas ini.
+The Bookshelf App is designed to help users:
+- Add new books to their collection.
+- Edit book details like title, author, and release year.
+- Change the reading status of a book (e.g., "Not Finished" to "Finished" and vice versa).
+- Remove books from the collection.
 
-- Anda dilarang mengedit atau menghapus atribut `data-testid` pada elemen-elemen HTML.
-- Ini masih berkaitan dengan poin sebelumnya. Jika Anda memiliki kebutuhan seperti styling elemen dan perlu menambahkan atribut seperti class, itu tidak dilarang selama atribut `data-testid` beserta nilainya tidak diubah atau dihapus.
-- Dalam menampilkan data-data buku, Anda wajib memberikan beberapa atribut pada setiap elemennya.
+The app is built with simplicity and functionality in mind, making it easy to manage your bookshelf digitally!
 
-  - `data-bookid`: menampung nilai ID masing-masing buku.
-  - `data-testid`: penanda jenis data buku yang ditampilkan. Berikut daftarnya.
-    - `bookItem`: elemen kontainer yang menampung data-data buku.
-    - `bookItemTitle`: judul buku
-    - `bookItemAuthor`: penulis buku
-    - `bookItemYear`: tahun rilis buku
-    - `bookItemIsCompleteButton`: tombol untuk mengubah kondisi buku dari “Belum selesai dibaca” menjadi “Selesai dibaca” atau sebaliknya.
-    - `bookItemDeleteButton`: tombol untuk menghapus buku.
-    - `bookItemEditButton`: tombol untuk mengubah data buku.
+## Key Features
 
-  Agar pengerjaan tugas lebih mudah, Anda dapat mengikuti templat buku berikut.
+1. **Add Books**: Quickly add new books with essential details like title, author, year, and status.
+2. **Edit Details**: Update any book’s information with ease.
+3. **Change Status**: Toggle between "Finished" and "Not Finished" to keep your reading progress organized.
+4. **Delete Books**: Remove unwanted books from your collection.
 
-```html
-<div data-bookid="{{ ID_buku }}" data-testid="bookItem">
-  <h3 data-testid="bookItemTitle">{{ judul_buku }}</h3>
-  <p data-testid="bookItemAuthor">Penulis: {{ penulis_buku }}</p>
-  <p data-testid="bookItemYear">Tahun: {{ tahun_rilis_buku }}</p>
-  <div>
-    <button data-testid="bookItemIsCompleteButton">{{ tombol_untuk_ubah_kondisi }}</button>
-    <button data-testid="bookItemDeleteButton">{{ tombol_untuk_hapus }}</button>
-    <button data-testid="bookItemEditButton">{{ tombol_untuk_edit }}</button>
-  </div>
-</div>
-```
+## How to Run the Project
 
-Selamat mengerjakan dan sukses selalu!
+1. Clone the repository to your local machine:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Open the project folder and start working on it.
+3. Make sure to follow the structure above when adding new features or updating existing ones.
+
+## Why This App?
+
+This app was initially inspired by my desire to learn and apply front-end web development principles. It's also a fun way to explore how to:
+- Structure HTML elements for usability and accessibility.
+- Use JavaScript to dynamically manage and update content.
+- Create a simple, interactive, and user-friendly interface.
+
+---
+
+Enjoy managing your digital bookshelf and keep on reading! 📚
+
